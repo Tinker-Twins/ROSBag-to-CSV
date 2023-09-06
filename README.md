@@ -13,6 +13,7 @@ $ catkin_make
 ## Usage:
 
 1. Execute the `rosbag_to_csv` node:
+   
     a. `rosrun` (recommended)
     ```bash
     $ # New terminal window/tab
@@ -20,17 +21,18 @@ $ catkin_make
     $ # New terminal window/tab
     $ rosrun rosbag_to_csv rosbag_to_csv.py
     ```
+    
     b. `roslaunch` (alternative)
     ```bash
     $ # New terminal window/tab
     $ roslaunch rosbag_to_csv rosbag_to_csv.launch
     ```
 
-2. Select a single bag file or multiple bag files using the GUI popup.
+3. Select a single bag file or multiple bag files using the GUI popup.
 
-3. Select the topic(s) of interest that should be extracted to the CSV file(s) using the GUI popup.
+4. Select the topic(s) of interest that should be extracted to the CSV file(s) using the GUI popup.
 
-4. Wait for a few seconds until the conversion takes place.
+5. Wait for a few seconds until the conversion takes place.
 
 ## Notes:
 
