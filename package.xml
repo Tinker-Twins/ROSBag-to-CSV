@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package>
+
+  <name>rosbag_to_csv</name>
+
+  <version>0.1.0</version>
+  
+  <description>ROS package to extract data from bag file(s) to CSV file(s).</description>
+
+  <maintainer email="samakchinmayvilas@gmail.com">Chinmay Samak</maintainer>
+  <maintainer email="samaktanmay@gmail.com">Tanmay Samak</maintainer>
+
+  <license>MIT</license>
+
+  <author email="samakchinmayvilas@gmail.com">Chinmay Samak</author>
+  <author email="samaktanmay@gmail.com">Tanmay Samak</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>rospy</build_depend>
+  <run_depend>rospy</run_depend>
+  <run_depend>pyqt5-dev-tools</run_depend>
+
+</package>
